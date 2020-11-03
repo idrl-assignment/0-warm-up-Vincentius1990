@@ -11,7 +11,7 @@ def generate_random_matrix(m, n):
 
 def save_matrix(matrix, file_name):
     plt.imshow(matrix)
-    plt.savefig("D:" + '/' + file_name)
+    plt.savefig(file_name)
 
 
 if __name__ == "__main__":
