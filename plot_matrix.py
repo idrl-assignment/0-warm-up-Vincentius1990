@@ -5,12 +5,13 @@ import matplotlib.pyplot as plt
 
 
 def generate_random_matrix(m, n):
-    matrix = np.random.randint(0,2,(m,n))
+    matrix = np.random.randint(0, 2, (m, n))
     return matrix
+
 
 def save_matrix(matrix, file_name):
     plt.imshow(matrix)
-    plt.savefig("D:" + '/' + file_name )
+    plt.savefig("D:" + '/' + file_name)
 
 
 if __name__ == "__main__":
